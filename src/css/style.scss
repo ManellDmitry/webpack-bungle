@@ -1,0 +1,12 @@
+.coctailItem {
+  list-style: none;
+  border: 1px solid yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  box-shadow: 3px green;
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+}
