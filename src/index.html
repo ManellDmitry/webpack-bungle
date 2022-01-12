@@ -12,5 +12,31 @@
       <input type="text" name="search" id="" />
       <button type="submit">Go</button>
     </form>
+
+    <div class="photos">
+      <form id="pexelsForm" class="pexelsForm">
+        <label
+          >serchImages
+          <input
+            placeholder="pexelSearch"
+            type="text"
+            name="search"
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+            title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+            title="Пишите на английском"
+            id="inputSearch"
+          />
+        </label>
+        <label
+          >SearchColor
+          <input type="color" name="color" id="searchColor" />
+        </label>
+        <button type="submit" class="searchBtn">GoGoGo</button>
+      </form>
+      <ul id="galleryId"></ul>
+      <button class="hiddenButton" type="button" id="loadMore">
+        Load More
+      </button>
+    </div>
   </body>
 </html>

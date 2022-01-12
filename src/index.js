@@ -2,6 +2,8 @@ import itemTemplate from "./temlates/item.hbs";
 import generateItem from "./temlates/generateItem.hbs";
 import "./coctail/createMarkup.js";
 import "./css/style.scss";
+import "./pexels/fetch.js";
+
 function firstWord() {
   const word = "Hi Webpack";
   const text = document.createElement("p");

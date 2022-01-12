@@ -10,3 +10,28 @@
   padding: 10px;
   margin: 15px;
 }
+.hiddenButton {
+  display: none;
+}
+.pexelsForm {
+  display: block;
+  width: 400px;
+  padding: 20px;
+}
+.pexelsForm label {
+  display: flex;
+  flex-flow: column;
+}
+.pexelsForm input {
+  padding: 10px;
+  border: none;
+  color: cornflowerblue;
+  border-bottom: 1px solid;
+}
+.pexelsForm input::placeholder {
+  color: rgb(124, 9, 160);
+}
+.searchBtn {
+  display: block;
+  margin-top: 20px;
+}
